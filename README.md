@@ -1,5 +1,5 @@
 # Online_Shopping_System
-<h2 style="font-size:18px;"> <b>LaSephora</b>is a feature-rich online shopping system built with HTML, Java, and MySQL. 
+<h2 style="font-size:18px;"> <b>LaSephora</b> is a feature-rich online shopping system built with HTML, Java, and MySQL. 
  <br><br>
  
  It streamlines cloth ordering, sales, and inventory management while providing robust tools for admin and supplier operations, user account management, and system maintenance.</h2>
