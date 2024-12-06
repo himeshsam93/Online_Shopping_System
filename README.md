@@ -78,13 +78,13 @@ The application uses MySQL within the MySQL Workbench server for efficient data 
 <img width="1470" alt="Screenshot 2024-12-06 at 15 34 44" src="https://github.com/user-attachments/assets/e1e48226-a10a-4194-aed0-b3579542a5ad">
 <img width="1470" alt="Screenshot 2024-12-06 at 15 35 32" src="https://github.com/user-attachments/assets/8d533ede-8490-4c6b-b8e2-744a05ab2940">
 <img width="1470" alt="Screenshot 2024-12-06 at 15 35 43" src="https://github.com/user-attachments/assets/64bbb54d-16ab-44f4-81d3-99a7a668a23e">
-<img width="1470" alt="Screenshot 2024-12-06 at 15 36 06" src="https://github.com/user-attachments/assets/145e6bb9-83a5-4581-b458-4cd2c63aab84">
+
 <img width="1470" alt="Screenshot 2024-12-06 at 15 36 06 1" src="https://github.com/user-attachments/assets/c1e72231-1b5b-452f-8db9-dfc228a6a55b">
 <img width="1470" alt="Screenshot 2024-12-06 at 15 36 45" src="https://github.com/user-attachments/assets/66e2444b-ddc0-40c6-938f-34d4da0ab5ef">
 <img width="1470" alt="Screenshot 2024-12-06 at 15 37 43" src="https://github.com/user-attachments/assets/d6fc27dc-98cd-47b3-bfc2-4102c90c5d7d">
 <img width="1470" alt="Screenshot 2024-12-06 at 15 38 12" src="https://github.com/user-attachments/assets/0656d40a-73cb-4d04-9b38-73e53371a7ab">
 <img width="1470" alt="Screenshot 2024-12-06 at 15 38 30" src="https://github.com/user-attachments/assets/1bc96ef8-5e05-4314-814c-fd60002fd142">
-<img width="1470" alt="Screenshot 2024-12-06 at 15 38 46" src="https://github.com/user-attachments/assets/5d65b434-2eb9-4252-9661-0a8e23df3629">
+
 <img width="1470" alt="Screenshot 2024-12-06 at 15 39 37" src="https://github.com/user-attachments/assets/a1613a9f-804a-45b2-a745-89eaed559233">
 
 <br><br><hr>
