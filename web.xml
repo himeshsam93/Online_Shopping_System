@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                            http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+ 
+<!--  
+ <web-app 
+    xmlns="https://jakarta.ee/xml/ns/jakartaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+    version="6.0"> -->
+ 
+ 		
+ 		
+ 		
+ 		
+ 		<!--insert Supplier   -->
+ 		<servlet>
+ 		
+ 			<servlet-name>supplierInsertServlet</servlet-name>
+ 			<servlet-class>Servlet.supplierInsertServlet</servlet-class>
+ 		
+ 		</servlet>
+ 		
+ 		
+ 		<servlet-mapping>
+ 		
+ 			<servlet-name>supplierInsertServlet</servlet-name>
+ 			<url-pattern>supplierInsertServlet</url-pattern>
+ 		
+ 		
+ 		</servlet-mapping>
+ 		
+ 		
+ 		<!-- read supplier -->
+ 		
+ 		<servlet>
+ 		
+ 			<servlet-name>supplierRetrieveServlet</servlet-name>
+ 			<servlet-class>Servlet.supplierRetrieveServlet</servlet-class>
+ 		
+ 		</servlet>
+ 		
+ 		
+ 		<servlet-mapping>
+ 		
+ 			<servlet-name>supplierRetrieveServlet</servlet-name>
+ 			<url-pattern>supplierRetrieveServlet</url-pattern>
+ 		
+ 		
+ 		</servlet-mapping>
+ 		
+ 		
+ 		<!--  update supplier -->
+ 		
+ 		<servlet>
+ 		
+ 			<servlet-name>supplierUpdateServlet</servlet-name>
+ 			<servlet-class>Servlet.supplierUpdateServlet</servlet-class>
+ 		
+ 		</servlet>
+ 		
+ 		
+ 		<servlet-mapping>
+ 		
+ 			<servlet-name>supplierUpdateServlet</servlet-name>
+ 			<url-pattern>supplierUpdateServlet</url-pattern>
+ 		
+ 		
+ 		</servlet-mapping>
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		<!--  delete supplier -->
+ 		
+ 		<servlet>
+ 		
+ 			<servlet-name>supplierDeleteServlet</servlet-name>
+ 			<servlet-class>Servlet.supplierDeleteServlet</servlet-class>
+ 		
+ 		</servlet>
+ 		
+ 		
+ 		<servlet-mapping>
+ 		
+ 			<servlet-name>supplierDeleteServlet</servlet-name>
+ 			<url-pattern>supplierDeleteServlet</url-pattern>
+ 		
+ 		
+ 		</servlet-mapping>
+ 		
+ 		
+ 		
+		<!--  insert customer-->
+ 		
+ 		<servlet>
+ 		
+ 			<servlet-name>customerInsertServlet</servlet-name>
+ 			<servlet-class>Servlet.customerInsertServlet</servlet-class>
+ 		
+ 		</servlet>
+ 		
+ 		
+ 		<servlet-mapping>
+ 		
+ 			<servlet-name>customerInsertServlet</servlet-name>
+ 			<url-pattern>customerInsertServlet</url-pattern>
+ 		
+ 		
+ 		</servlet-mapping>
+ 		
+ 		
+ 		<!--  retrieve customer-->
+ 		
+ 		<servlet>
+ 		
+ 			<servlet-name>customerRetrieveServlet</servlet-name>
+ 			<servlet-class>Servlet.customerRetrieveServlet</servlet-class>
+ 		
+ 		</servlet>
+ 		
+ 		
+ 		<servlet-mapping>
+ 		
+ 			<servlet-name>customerRetrieveServlet</servlet-name>
+ 			<url-pattern>customerRetrieveServlet</url-pattern>
+ 		
+ 		
+ 		</servlet-mapping>
+ 		
+ 		
+ 		
+ 		
+ 		
+ 
+ 
+ 		<!--  update customer-->
+ 		
+ 		<servlet>
+ 		
+ 			<servlet-name>customerUpdateServlet</servlet-name>
+ 			<servlet-class>Servlet.customerUpdateServlet</servlet-class>
+ 		
+ 		</servlet>
+ 		
+ 		
+ 		<servlet-mapping>
+ 		
+ 			<servlet-name>customerUpdateServlet</servlet-name>
+ 			<url-pattern>customerUpdateServlet</url-pattern>
+ 		
+ 		
+ 		</servlet-mapping>
+ 		
+ 		
+ 		
+ 		<!--  delete customer -->
+ 		
+ 		<servlet>
+ 		
+ 			<servlet-name>customerDeleteServlet1</servlet-name>
+ 			<servlet-class>Servlet.customerDeleteServlet1</servlet-class>
+ 		
+ 		</servlet>
+ 		
+ 		
+ 		<servlet-mapping>
+ 		
+ 			<servlet-name>customerDeleteServlet1</servlet-name>
+ 			<url-pattern>customerDeleteServlet1</url-pattern>
+ 		
+ 		
+ 		</servlet-mapping>
+ 		
+ 		
+ 		
+ 		
+ 		<!--insert  product -->
+ 		<servlet>
+ 		
+ 			<servlet-name>productInsertServlet</servlet-name>
+ 			<servlet-class>Servlet.productInsertServlet</servlet-class>
+ 		
+ 		
+ 		</servlet>
+ 		
+ 		
+ 		<servlet-mapping>
+ 		
+ 			<servlet-name>productInsertServlet</servlet-name>
+ 			<url-pattern>productInsertServlet</url-pattern>
+ 		
+ 		
+ 		</servlet-mapping>
+ 		
+ 		
+ 		
+ 		
+ 		<!--  retrieve products -->
+ 		
+ 		<servlet>
+ 		
+ 			<servlet-name>productRetrieveServlet</servlet-name>
+ 			<servlet-class>Servlet.productRetrieveServlet</servlet-class>
+ 		
+ 		</servlet>
+ 		
+ 		
+ 		<servlet-mapping>
+ 		
+ 			<servlet-name>productRetrieveServlet</servlet-name>
+ 			<url-pattern>productRetrieveServlet</url-pattern>
+ 		
+ 		
+ 		</servlet-mapping>
+ 		
+ 		
+ 		<!--  update products -->
+ 		
+ 		<servlet>
+ 		
+ 			<servlet-name>productUpdateServlet</servlet-name>
+ 			<servlet-class>Servlet.productUpdateServlet</servlet-class>
+ 		
+ 		</servlet>
+ 		
+ 		
+ 		<servlet-mapping>
+ 		
+ 			<servlet-name>productUpdateServlet</servlet-name>
+ 			<url-pattern>productUpdateServlet</url-pattern>
+ 		
+ 		
+ 		</servlet-mapping>
+ 		
+ 		
+ 		
+ 		<!--  delete supplier -->
+ 		
+ 		<servlet>
+ 		
+ 			<servlet-name>productDeleteServlet</servlet-name>
+ 			<servlet-class>Servlet.productDeleteServlet</servlet-class>
+ 		
+ 		</servlet>
+ 		
+ 		
+ 		<servlet-mapping>
+ 		
+ 			<servlet-name>productDeleteServlet</servlet-name>
+ 			<url-pattern>productDeleteServlet</url-pattern>
+ 		
+ 		</servlet-mapping>
+ 		
+ 		
+ 		
+ 		<!-- insert orders -->
+ 		
+ 		<servlet>
+ 		
+ 			<servlet-name>orderInsertServlet</servlet-name>
+ 			<servlet-class>Servlet.orderInsertServlet</servlet-class>
+ 		
+ 		</servlet>
+ 		
+ 		
+ 		<servlet-mapping>
+ 		
+ 			<servlet-name>orderInsertServlet</servlet-name>
+ 			<url-pattern>orderInsertServlet</url-pattern>
+ 		
+ 		
+ 		</servlet-mapping>
+ 		
+ 		
+ 		
+ 		<!-- read orders -->
+ 		
+ 		<servlet>
+ 		
+ 			<servlet-name>orderRetrieveServlet</servlet-name>
+ 			<servlet-class>Servlet.orderRetrieveServlet</servlet-class>
+ 		
+ 		</servlet>
+ 		
+ 		
+ 		<servlet-mapping>
+ 		
+ 			<servlet-name>orderRetrieveServlet</servlet-name>
+ 			<url-pattern>orderRetrieveServlet</url-pattern>
+ 		
+ 		
+ 		</servlet-mapping>
+ 		
+ 		
+ 		<!-- update orders -->
+ 		
+ 		<servlet>
+ 		
+ 			<servlet-name>orderUpdateServlet</servlet-name>
+ 			<servlet-class>Servlet.orderUpdateServlet</servlet-class>
+ 		
+ 		</servlet>
+ 		
+ 		
+ 		<servlet-mapping>
+ 		
+ 			<servlet-name>orderUpdateServlet</servlet-name>
+ 			<url-pattern>orderUpdateServlet</url-pattern>
+ 		
+ 		
+ 		</servlet-mapping>
+ 		
+ 		
+ 		
+ 		<!-- delete orders -->
+ 		
+ 		<servlet>
+ 		
+ 			<servlet-name>orderDeleteServlet</servlet-name>
+ 			<servlet-class>orderDeleteServlet</servlet-class>
+ 		
+ 		</servlet>
+ 		
+ 		
+ 		<servlet-mapping>
+ 		
+ 			<servlet-name>orderDeleteServlet</servlet-name>
+ 			<url-pattern>orderDeleteServlet</url-pattern>
+ 		
+ 		
+ 		</servlet-mapping>
+ 		
+ 		
+ 		
+ 		
+ 			<!-- delete Cart order items  -->
+ 		
+ 		<servlet>
+ 		
+ 			<servlet-name>orderShopDeleteServlet</servlet-name>
+ 			<servlet-class>Servlet.orderShopDeleteServlet</servlet-class>
+ 		
+ 		</servlet>
+ 		
+ 		
+ 		<servlet-mapping>
+ 		
+ 			<servlet-name>orderShopDeleteServlet</servlet-name>
+ 			<url-pattern>orderShopDeleteServlet</url-pattern>
+ 		
+ 		
+ 		</servlet-mapping>
+ 		
+ 		
+ 		
+ 		
+ 			<!-- update Cart order items  -->
+ 		
+ 		<servlet>
+ 		
+ 			<servlet-name>orderShopUpdateServlet</servlet-name>
+ 			<servlet-class>Servlet.orderShopUpdateServlet</servlet-class>
+ 		
+ 		</servlet>
+ 		
+ 		
+ 		<servlet-mapping>
+ 		
+ 			<servlet-name>orderShopUpdateServlet</servlet-name>
+ 			<url-pattern>orderShopUpdateServlet</url-pattern>
+ 		
+ 		
+ 		</servlet-mapping>
+ 		
+ 		
+ 		<!-- Admin Login  -->
+ 		
+ 		
+ 		<servlet>
+			<servlet-name>adminLoginServlet</servlet-name>
+			<servlet-class>Servlet.adminLoginServlet</servlet-class>
+
+		</servlet>
+
+		<servlet-mapping>
+			<servlet-name>adminLoginServlet</servlet-name>
+			<url-pattern>adminLoginServlet</url-pattern>
+		</servlet-mapping>
+ 		
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+</web-app>

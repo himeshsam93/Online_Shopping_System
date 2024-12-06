@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+}
+
+.nav-bar {
+    z-index: 1;
+}
+
+/* Main content centering */
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+/* Form styling */
+.newproductform {
+    background-color: #D8BFD8;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.newproductform h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.newproductform label {
+    font-size: 14px;
+    color: black;
+}
+
+.newproductform input, 
+.newproductform textarea,
+.newproductform select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: inherit;
+    transition: border-color 0.3s;
+}
+
+.newproductform input:focus, 
+.newproductform textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    
+}
+
+.newproductform button {
+    width: 100%;
+    padding: 12px;
+    background-color:  #89CFF0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.newproductform button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer content styling */
+.footer-content {
+    background-color: #f8f8f8;
+    padding: 20px 0 0;
+}
+
+.footer-content footer {
+    margin-top: 0; /* Reduce gap */
+}
+
+.footer-text {
+    color: #333;
+    font-size: 14px;
+}
+
+.social_media {
+    margin-right: 10px;
+}
+
+/* Table styling in footer */
+footer table {
+    width: 100%;
+    padding: 20px;
+    border-spacing: 0;
+}
+
+footer td {
+    vertical-align: top;
+    padding: 5px 15px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .newproductform {
+        padding: 20px;
+    }
+    
+    footer table {
+        padding: 10px;
+    }
+}
